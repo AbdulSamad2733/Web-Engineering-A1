@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="PAF-IAST official website overview.">
+    <meta name="keywords" content="PAF-IAST, University, Haripur, Engineering, Technology">
+    <meta name="author" content="Abdul Samad">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAF-IAST | Excellence in Technology</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container header-flex">
+        <div class="logo-section">
+            <img src="images/logo.png" alt="PAF-IAST Logo" class="logo-img">
+            <div class="brand-text">
+                
+            </div>
+        </div>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#admissions">Admissions</a></li>
+                <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+        <h2>Shaping the Future of <span class="highlight">Engineering & Tech</span></h2>
+        <p>A bridge to industry, innovation, and international excellence.</p>
+        <div class="hero-btns">
+            <button id="learnMoreBtn" class="btn-primary">Explore Campus</button>
+            <a href="https://paf-iast.edu.pk/" target="_blank" class="btn-secondary">Official Portal</a>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="container about-grid">
+        <div class="about-text">
+            <span class="sub-title">Who We Are</span>
+            <h2>About PAF-IAST</h2>
+            <p>
+                Pak-Austria Fachhochschule (PAF-IAST) is a unique collaboration between Pakistan and Austria. 
+                Located in Haripur, we focus on high-tech education and research that directly supports industrial growth.
+            </p>
+            <ul class="features">
+                <li>International Faculty</li>
+                <li>State-of-the-Art Labs</li>
+                <li>Industry Internships</li>
+            </ul>
+        </div>
+        <div class="about-image">
+            <img src="images/about.jpg" alt="Students">
+        </div>
+    </div>
+</section>
+
+<section id="programs" class="section light">
+    <div class="container">
+        <div class="section-header">
+            <h2>Academic Programs</h2>
+            <p>Choose your path in modern technology</p>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="images/cs.png" alt="Computer Science" class="card-icon">
+                <h3>Computer Science</h3>
+            </div>
+            <div class="card">
+                <img src="images/se.png" alt="Software Engineering" class="card-icon">
+                <h3>Software Engineering</h3>
+            </div>
+            <div class="card">
+                <img src="images/ee.png" alt="Electrical Engineering" class="card-icon">
+                <h3>Electrical Engineering</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="admissions" class="section admission-banner">
+    <div class="container text-center">
+        <h2>Join Our Global Community</h2>
+        <p>Admissions are open for the Fall 2026 session. Take the first step toward a global career.</p>
+        <button id="admissionBtn" class="btn-primary">Check Eligibility</button>
+        <div id="admissionMessage" class="message-box"></div>
+    </div>
+</section>
+
+<section id="contact" class="section light">
+    <div class="container">
+        <div class="section-header">
+            <h2>Contact Us</h2>
+            <p>Have a question? We’d love to hear from you.</p>
+        </div>
+
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>
+                    Reach out for admissions, programs, or general inquiries.
+                    Our team will respond as soon as possible.
+                </p>
+                <ul>
+                    <li><strong>📍 Address:</strong> Haripur, KP, Pakistan</li>
+                    <li><strong>📧 Email:</strong> info@paf-iast.edu.pk</li>
+                    <li><strong>📞 Phone:</strong> +92 XXX XXXXXXX</li>
+                </ul>
+            </div>
+<form id="contactForm" class="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="text" name="subject" placeholder="Subject" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn-primary">Send Message</button>
+    <p id="formStatus" class="message-box"></p>
+</form>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <div class="container footer-content">
+        <div class="footer-info">
+            <h3>PAF-IAST</h3>
+            <p>Haripur, Khyber Pakhtunkhwa, Pakistan</p>
+        </div>
+        <div class="footer-links">
+            <p>&copy; 2026 PAF-IAST. Designed by Abdul Samad</p>
+        </div>
+    </div>
+</footer>
+
+<!-- EmailJS CDN -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<!-- Your JS file -->
+<script src="script.js"></script>
+</body>
+</html>
+
+
